@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int mathmarks, phymarks;
+    float total;
+
+    printf("enter maths marks ");
+    scanf("%d",&mathmarks);
+
+    printf("enter physics marks ");
+    scanf("%d",&phymarks);
+
+    total=(30.0/100)*mathmarks + (70.0/100)*phymarks;
+
+    printf("total = %f",total);
+
+    return 0;
+}
