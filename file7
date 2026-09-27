@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    char input;
+
+    printf("Input a character: ");
+    scanf(" %c",&input);
+
+    if(input=='W')
+    {
+        printf("Attendance is below 85%%");
+    }
+    else if(input=='A')
+    {
+        printf("Marks is 90-100%%");
+    }
+    else if(input=='B')
+    {
+        printf("Marks is 80-90%%");
+    }
+    else
+    {
+        printf("Invalid character");
+    }
+
+    return 0;
+}
