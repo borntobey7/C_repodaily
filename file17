@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,r;
+
+    scanf("%d",&a);
+    scanf("%d",&b);
+
+    r=a%b;
+
+    printf("remainder = %d",r);
+
+    return 0;
+}
