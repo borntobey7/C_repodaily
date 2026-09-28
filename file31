@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int x,y,n;
+
+    n=10;
+
+    x=n++;
+    y=++n;
+
+    printf("x=%d y=%d n=%d",x,y,n);
+
+    return 0;
+}
