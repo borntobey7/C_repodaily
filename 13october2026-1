@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+  int n = 5;
+  int num = 1;
+
+  do{
+  printf("%d X %d = %d \n", num, n , num*n);
+  num++;
+}
+while(num<=10);
+return 0;
+}
