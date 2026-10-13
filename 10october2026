@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+  int x=4;
+  do{
+        printf("hello!");
+        i++;
+    }
+        while(i==5)
+        return 0;
+  }
